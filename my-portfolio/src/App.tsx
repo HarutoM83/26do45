@@ -6,12 +6,17 @@ import {useTheme}from"./hooks/useTheme"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import About from "./components/About"
+import Skills from "./components/Skills"
+import Works from "./components/Works"
+import WorkDetail from "./pages/WorkDetail"
 
 function HomePage(){
   return(
     <>
     <Hero/>
     <About/>
+    <Skills/>
+    <Works/>
     </>
   )
 }
@@ -27,6 +32,7 @@ export default function App(){
       <main>
         <Routes>
             <Route path="/" element={<HomePage/>}/>
+            <Route path="/works/:id" element={<WorkDetail/>}/>
         </Routes>
       </main>
       <Footer />

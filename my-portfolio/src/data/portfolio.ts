@@ -21,7 +21,7 @@ export interface Skill{
     version: string|null//バージョン情報(null許容)
     level:number//スキルレベル
     category:string//カテゴリ
-    capabilities:string//できること
+    capabilities:string[]//できること
     note:string|null//実装経験
 }
 //詳細要素情報
@@ -57,7 +57,7 @@ export interface GameJam{
     data:string //日時
     theme:string//情報
     description:string//作品詳細
-    platform:string//プラットフォーム
+    platform:string[]//プラットフォーム
     role:string//担当箇所
     team:string//チーム情報
     result:string|null//結果
@@ -104,7 +104,7 @@ export const skills: Skill[]=[
         version: null,
         level: 0,
         category: "",
-        capabilities: "",
+        capabilities: [],
         note: null
     }
 ]
@@ -141,7 +141,7 @@ export const gamejam: GameJam[]=[
         data: "",
         theme: "",
         description: "",
-        platform: "",
+        platform: [],
         role: "",
         team: "",
         result: null,

@@ -23,7 +23,7 @@ const LEVEL_CONFIG: LevelConfig[] = [
 function getLevelConfig(level: number): LevelConfig {
   return LEVEL_CONFIG.find((l) => level <= l.max) ?? LEVEL_CONFIG.at(-1)!
 }
-/*
+
 function SkillCard({ skill }: { skill: Skill }) {
   const config = getLevelConfig(skill.level)
 
@@ -80,4 +80,4 @@ export default function Skills(){
             
         </section>
     )
-}*/
+}
