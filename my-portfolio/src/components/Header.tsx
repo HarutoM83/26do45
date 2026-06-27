@@ -10,7 +10,11 @@ interface Props{
 
 export default function Header({theme,onThemeToggle}:Props){
     const navItem=[
-        {label:'About',hash:'about'}
+        {label:'About',hash:'about'},
+        {label:'Skills',hash:'skills'},
+        {label:'Workst',hash:'works'},
+        {label:'Certs',hash:'certifications'},
+        {label:'Contact',hash:'contact'}
     ];
     return(
         <header className="header">
@@ -38,7 +42,7 @@ export default function Header({theme,onThemeToggle}:Props){
                         className="theme-toggle"
                         onClick={onThemeToggle}
                         aria-label={theme === 'dark'? 'ライトモードに切り替え' : 'ダークモードに切り替え'}>
-                        {theme === 'dark' ? '☀️' : '🌙'}
+                        {theme === 'dark' ? <FaSun/>'☀️' : <FaMoon/>'🌙'}
                     </button>
 
                 </div>

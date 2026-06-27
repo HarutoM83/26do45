@@ -1,4 +1,5 @@
 import { profile } from "../data/portfolio";
+import SafeImg from "./SafeImg";
 
 export default function Hero(){
     return(
@@ -8,6 +9,11 @@ export default function Hero(){
                     <p className="hero-eyebrow">Portfolio</p>
 
                     <h1 className="hero-name">
+                        <SafeImg
+                        src={profile.avater}
+                        alt={profile.name}
+                        fallback={profile.nameEn.charAt(0)}
+                        />
                         <span className="gradiemt">{profile.name}</span>
                         <span className="heo-name-en">{profile.nameEn}</span>
                     </h1>
