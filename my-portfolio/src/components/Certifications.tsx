@@ -2,10 +2,10 @@ import { certification, type Certification, type CertStatus } from "../data/port
 
 const STATUS CONFIG:
     Record<CertStatus,{color:string;bg:string;border:string}>={
-        '取得済み':{color:'#4ADE80',bg:'rgba(74,222,128,0.1',border:'rgba(74,222,128,0.1'},
-        '受験予定':{color:'',bg:'',border:''},
-        '取得予定':{color:'',bg:'',border:''},
-        '学習中':{color:'',bg:'',border:''},
+        '取得済み': { color:'var(--badge-amber)', bg:'#FBBF241A', border:'#FBBF244D' },
+        '受験予定': { color:'var(--badge-sky)', bg:'#38BDF81A', border:'#38BDF84D' },
+        '取得予定': { color:'var(--badge-indigo)', bg:'#818CF81A', border:'#818CF84D' },
+        '学習中': { color:'var(--badge-orange)', bg:'#F0932F1A', border:'#F0932F4D' },
     }
 
 function StatusBadge({status} : {status: CertStatus}){
