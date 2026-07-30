@@ -1,3 +1,5 @@
+import type { ReactNode } from "react"
+
 //プロフィール情報定義
 export interface Profile{
     name: string//名前漢字表記
@@ -26,6 +28,7 @@ export interface Skill{
 }
 //詳細要素情報
 export interface Venus{
+    date: ReactNode
     name:string//名前
     data:string//日時
 }
@@ -150,7 +153,7 @@ export const gamejam: GameJam[]=[
     }
 ]
 
-export const certification:Certification[]=[
+export const certifications:Certification[]=[
     {
         name: "Mos Excel 2019 一般",
         data: "2025年2月",

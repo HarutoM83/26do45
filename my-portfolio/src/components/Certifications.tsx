@@ -1,11 +1,11 @@
-import { certification, type Certification, type CertStatus } from "../data/portfolio"
+import { certifications, type Certification, type CertStatus } from "../data/portfolio"
 
 const STATUS CONFIG:
     Record<CertStatus,{color:string;bg:string;border:string}>={
         '取得済み': { color:'var(--badge-amber)', bg:'#FBBF241A', border:'#FBBF244D' },
         '受験予定': { color:'var(--badge-sky)', bg:'#38BDF81A', border:'#38BDF84D' },
         '取得予定': { color:'var(--badge-indigo)', bg:'#818CF81A', border:'#818CF84D' },
-        '学習中': { color:'var(--badge-orange)', bg:'#F0932F1A', border:'#F0932F4D' },
+        '学習中': { color:'var(--badge-orange)', bg:'#F0932F1A', border:'#F0932F4D' }
     }
 
 function StatusBadge({status} : {status: CertStatus}){
@@ -26,14 +26,17 @@ function CertRow({cert} : {cert: Certification}){
             <div className="cert-icon"></div>
             <div className="cert-main">
                 <div className="cert-name-row">
-                    <p className="cert-name-row">(cert.name)</p>
-                    {cert.score &&
+                    <p className="cert-name">{cert.name}</p>
+                    { cert.score && 
                         <span className="cert-score">{cert.score}</span>
                     }
                 </div>
-                <p className="cert-data">{cert.data}</p>
+                <p className="cert-date">{cert.date}</p>
             </div>
-            
+            <div className="cert-meta">
+                <span className="cert-category">{cert.category}</span>
+            </div>
+            <StatusBadge status={cert.status}/>
         </div>
     )
 }

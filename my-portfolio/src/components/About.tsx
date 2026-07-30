@@ -1,5 +1,5 @@
-import { profile } from "../data/portfolio";
-import { timeline } from "../data/portfolio";
+
+import { profile, timeline } from "../data/portfolio";
 
 export default function About(){
     return(
