@@ -72,6 +72,7 @@ export type CertStatus = "取得済み"|"受験予定"|"取得予定"|"学習中
 
 //資格情報
 export interface Certification{
+    date: ReactNode
     name:string//資格名
     data:string//日時
     category:string//カテゴリ
@@ -159,7 +160,8 @@ export const certifications:Certification[]=[
         data: "2025年2月",
         category: "国際資格",
         score: null,
-        status: "取得済み"
+        status: "取得済み",
+        date: undefined
     }
 ]
 

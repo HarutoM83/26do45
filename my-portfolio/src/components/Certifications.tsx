@@ -50,7 +50,7 @@ export default function Certifications(){
                 </h2>
                 <p className="section-sub">資格・実績</p>
                 <div className="cert-list">
-                    {certifications.lenght > 0 &&
+                    {certifications.length > 0 &&
                     certifications.map((cert,i)=>(
                         <CertRow key={i} cert={cert}/>
                     ))}
