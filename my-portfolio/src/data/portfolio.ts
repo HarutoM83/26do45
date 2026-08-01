@@ -88,13 +88,13 @@ export interface TimelineItem{
 export const profile: Profile ={
     name: "松田 晏大",
     nameEn: "Haruto Matsuda",
-    role: "",
+    role: "プログラマー",
     school: "京都デザイン&テクノロジー専門学校",
     department: "ゲームプログラマー専攻",
     graduationYear: "2027年度3月卒業見込み",
     bio: "",
-    motto: "心頭滅却すれば火もまた涼し",
-    avatar: "",
+    motto: "モットー:心頭滅却すれば火もまた涼し",
+    avatar: "day4_1469.jpg",
     links: {
         github: "https://github.com/HarutoM83",
         twitter: null,
@@ -107,7 +107,15 @@ export const skills: Skill[]=[
         name: "Unity",
         version: null,
         level: 0,
-        category: "",
+        category: "game engine",
+        capabilities: ["3D/2Dゲーム開発"],
+        note: null
+    },
+    {
+        name: "C#",
+        version: null,
+        level: 0,
+        category: "language",
         capabilities: [],
         note: null
     }
@@ -116,38 +124,38 @@ export const skills: Skill[]=[
 //作品カードの内容
 export const works: Work[]=[
     {
-        id: 0,
+        id: 1,
         title: "HOLE",
         genre: "2Dアクション",
-        category: "",
-        thumbnail: "",
-        screenshots: [],
-        description: "",
-        tags: [],
-        platform: [],
-        period: "",
-        team: "",
-        role: "",
-        github: "",
+        category: "game",
+        thumbnail: "スクリーンショット (1).png",
+        screenshots: ["スクリーンショット (1).png"],
+        description: "透明な敵を身体にまとっている色に合わせたアイテムで敵を倒して進む2Dアクションゲームです。",
+        tags: ["Unity2022.3.20f1","C#"],
+        platform: ["Windows"],
+        period: "2024年10月～2025年2月（約4ヶ月）",
+        team: "チーム10名（プランナー1・プログラマー5・デザイナー4）",
+        role: "プログラマー/シーン遷移",
+        github: "https://github.com/Yamahalu69/HOLE",
         link: null,
         venues: [],
-        techPoints: null,
-        designNotes: null,
+        techPoints: "シーン遷移でキーボード用とコントローラー用にプログラムをかいて実装していたこと",
+        designNotes: "SceneManagerでボタン別でシーン遷移を実装",
         implementationTheme: null,
-        troubleshooting: null,
+        troubleshooting: "シーン遷移時に、ESCキーが反応しない→原因不明でキー変更",
         performance: null
     }//配列ごとに作品情報を作ってく
 ]
 
 export const gamejam: GameJam[]=[
     {
-        name: "ええかんじのゲームガッカイ",
+        name: "ええかんじのゲームガッカイ25",
         data: "",
-        theme: "",
-        description: "",
-        platform: [],
-        role: "",
-        team: "",
+        theme: "3Dシミュレーションゲーム",
+        description: "退勤時間まで深夜コンビニバイトをしよう",
+        platform: ["Windows"],
+        role: "敵AI・時間制限・シーン遷移",
+        team: "チーム9名（プランナー2・プログラマー4・デザイナー3）",
         result: null,
         url: null,
         reflection: ""
