@@ -144,7 +144,7 @@ export const works: Work[]=[
         period: "2024年10月～2025年2月（約4ヶ月）",
         team: "チーム10名（プランナー1・プログラマー5・デザイナー4）",
         role: "プログラマー/シーン遷移",
-        github: "https://github.com/Yamahalu69/HOLE",
+        github: "https://github.com/Yamahalu69/GodoGameMake.git",
         link: null,
         venues: [],
         techPoints: "シーン遷移でキーボード用とコントローラー用にプログラムをかいて実装していたこと",
