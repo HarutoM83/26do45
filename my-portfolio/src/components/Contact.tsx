@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { profile } from "../data/portfolio";
 import { FaEnvelope,FaGithub } from "react-icons/fa"; 
-import {FaXTwitter } from "react-icons/fa";
+import {FaXTwitter } from "react-icons/fa6";
 
 export default function Contact(){
 
