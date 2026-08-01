@@ -129,7 +129,7 @@ export const works: Work[]=[
         genre: "2Dアクション",
         category: "game",
         thumbnail: "スクリーンショット (1).png",
-        screenshots: ["スクリーンショット (1).png"],
+        screenshots: ["スクリーンショット (3).png"],
         description: "透明な敵を身体にまとっている色に合わせたアイテムで敵を倒して進む2Dアクションゲームです。",
         tags: ["Unity2022.3.20f1","C#"],
         platform: ["Windows"],
