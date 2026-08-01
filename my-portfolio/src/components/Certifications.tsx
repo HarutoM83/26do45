@@ -1,6 +1,6 @@
 import { certifications, type Certification, type CertStatus } from "../data/portfolio"
 
-const STATUS CONFIG:
+const STATUS_CONFIG: 
     Record<CertStatus,{color:string;bg:string;border:string}>={
         '取得済み': { color:'var(--badge-amber)', bg:'#FBBF241A', border:'#FBBF244D' },
         '受験予定': { color:'var(--badge-sky)', bg:'#38BDF81A', border:'#38BDF84D' },

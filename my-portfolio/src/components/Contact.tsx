@@ -33,7 +33,7 @@ export default function Contact(){
                                 key={link.label}
                                 href={link.href}
                                 className="contact-link-item"
-                                target={link.href.startWith('mailto')?
+                                target={link.href.startsWith('mailto')?
                                     undefined:'_blank'}
                                 rel="noreferrer"
                                 >
