@@ -88,13 +88,13 @@ export interface TimelineItem{
 export const profile: Profile ={
     name: "松田 晏大",
     nameEn: "Haruto Matsuda",
-    role: "プログラマー",
+    role: "ゲームプログラマー",
     school: "京都デザイン&テクノロジー専門学校",
     department: "ゲームプログラマー専攻",
     graduationYear: "2027年度3月卒業見込み",
-    bio: "",
+    bio: "細かいところまで、確認する私の強みは、プログラムのコードで誤字・脱字が少ないことです。コードの誤字・脱字は、プログラムのバグの原因となるため、コードの誤字・脱字を減らすことは、バグを減らすことにつながります。",
     motto: "モットー:心頭滅却すれば火もまた涼し",
-    avatar: "day4_1469.jpg",
+    avatar: "/Images/day4_1469.jpg",
     links: {
         github: "https://github.com/HarutoM83",
         twitter: null,
@@ -106,15 +106,23 @@ export const skills: Skill[]=[
     {
         name: "Unity",
         version: null,
-        level: 0,
+        level: 50,
         category: "game engine",
         capabilities: ["3D/2Dゲーム開発"],
+        note: "普段使いしている"
+    },
+    {
+        name: "Unreal Engine",
+        version: null,
+        level: 25,
+        category: "game engine",
+        capabilities: ["3Dゲーム開発"],
         note: null
     },
     {
         name: "C#",
         version: null,
-        level: 0,
+        level: 50,
         category: "language",
         capabilities: [],
         note: null
@@ -128,8 +136,8 @@ export const works: Work[]=[
         title: "HOLE",
         genre: "2Dアクション",
         category: "game",
-        thumbnail: "スクリーンショット (1).png",
-        screenshots: ["スクリーンショット (3).png"],
+        thumbnail: "/Images/Game/スクリーンショット (1).png",
+        screenshots: ["//Images/Game/スクリーンショット (3).png"],
         description: "透明な敵を身体にまとっている色に合わせたアイテムで敵を倒して進む2Dアクションゲームです。",
         tags: ["Unity2022.3.20f1","C#"],
         platform: ["Windows"],
@@ -154,7 +162,7 @@ export const gamejam: GameJam[]=[
         theme: "3Dシミュレーションゲーム",
         description: "退勤時間まで深夜コンビニバイトをしよう",
         platform: ["Windows"],
-        role: "敵AI・時間制限・シーン遷移",
+        role: "敵AI・制限時間・シーン遷移",
         team: "チーム9名（プランナー2・プログラマー4・デザイナー3）",
         result: null,
         url: null,
