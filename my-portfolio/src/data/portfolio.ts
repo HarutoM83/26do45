@@ -153,6 +153,21 @@ export const works: Work[]=[
         troubleshooting: "シーン遷移時に、ESCキーが反応しない→原因不明でキー変更",
         performance: null
     }//配列ごとに作品情報を作ってく
+    {
+        id: 2,
+        title: "MusicGame",
+        genre: "3D",
+        category: "game",
+        tags: ["Unity6000.3.8f1","C#"],
+        platform: ["Windows"],
+        team: "個人",
+        role: "プログラマー",
+        github: "https://github.com/HarutoM83/MusicGame.git",
+        link: null,
+        venues: [],
+        implementationTheme: null,
+        performance: null
+    }
 ]
 
 export const gamejam: GameJam[]=[
