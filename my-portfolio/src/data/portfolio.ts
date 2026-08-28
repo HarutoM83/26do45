@@ -126,7 +126,7 @@ export const skills: Skill[]=[
         category: "language",
         capabilities: [],
         note: null
-    }
+    },
 ]
 
 //作品カードの内容
@@ -152,15 +152,15 @@ export const works: Work[]=[
         implementationTheme: null,
         troubleshooting: "シーン遷移時に、ESCキーが反応しない→原因不明でキー変更",
         performance: null
-    },//配列ごとに作品情報を作ってく
+    },
     {
         id: 2,
         title: "MusicGame",
         genre: "3D",
         category: "game",
-        thumbnail: null,
+        thumbnail: "",
         screenshots: [],
-        description: null,
+        description: "",
         tags: ["Unity6000.3.8f1","C#"],
         platform: ["Windows"],
          period: "2026年7月～現在まで",
@@ -169,12 +169,12 @@ export const works: Work[]=[
         github: "https://github.com/HarutoM83/MusicGame.git",
         link: null,
         venues: [],
-        techPoints: null,
-        designNotes: null,
+        techPoints: "",
+        designNotes: "",
         implementationTheme: null,
-        troubleshooting: null,
+        troubleshooting: "",
         performance: null
-    }
+    },//配列ごとに作品情報を作ってく
 ]
 
 export const gamejam: GameJam[]=[
@@ -189,7 +189,7 @@ export const gamejam: GameJam[]=[
         result: null,
         url: null,
         reflection: ""
-    }
+    },
 ]
 
 export const certifications:Certification[]=[
@@ -200,12 +200,12 @@ export const certifications:Certification[]=[
         score: null,
         status: "取得済み",
         date: undefined
-    }
+    },
 ]
 
 export const timeline: TimelineItem[]=[
     {
         year: "",
         event: ""
-    }
+    },
 ]
