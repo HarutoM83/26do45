@@ -152,7 +152,7 @@ export const works: Work[]=[
         implementationTheme: null,
         troubleshooting: "シーン遷移時に、ESCキーが反応しない→原因不明でキー変更",
         performance: null
-    }//配列ごとに作品情報を作ってく
+    },//配列ごとに作品情報を作ってく
     {
         id: 2,
         title: "MusicGame",
