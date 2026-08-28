@@ -158,14 +158,21 @@ export const works: Work[]=[
         title: "MusicGame",
         genre: "3D",
         category: "game",
+        thumbnail: null,
+        screenshots: [],
+        description: null,
         tags: ["Unity6000.3.8f1","C#"],
         platform: ["Windows"],
+         period: "2026年7月～現在まで",
         team: "個人",
         role: "プログラマー",
         github: "https://github.com/HarutoM83/MusicGame.git",
         link: null,
         venues: [],
+        techPoints: null,
+        designNotes: null,
         implementationTheme: null,
+        troubleshooting: null,
         performance: null
     }
 ]
