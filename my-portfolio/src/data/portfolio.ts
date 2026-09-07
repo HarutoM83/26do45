@@ -174,6 +174,28 @@ export const works: Work[]=[
         implementationTheme: null,
         troubleshooting: "",
         performance: null
+    },
+    {
+        id: 3,
+        title: "メカドッジリミットブレイク",
+        genre: "3Dアクション",
+        category: "game",
+        thumbnail: "",
+        screenshots: [],
+        description: "",
+        tags: ["Unity6000.3.8f1","C#"],
+        platform: ["Windows"],
+         period: "",
+        team: "チーム4名（プランナー1・プログラマー2・デザイナー1）",
+        role: "プログラマー",
+        github: "https://github.com/mochinoki123/Meca-Dodge-Limit-Break.git",
+        link: null,
+        venues: [],
+        techPoints: "",
+        designNotes: "",
+        implementationTheme: null,
+        troubleshooting: "",
+        performance: null
     },//配列ごとに作品情報を作ってく
 ]
 
