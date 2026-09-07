@@ -178,7 +178,7 @@ export const works: Work[]=[
     {
         id: 3,
         title: "メカドッジリミットブレイク",
-        genre: "3Dアクション",
+        genre: "3D",
         category: "game",
         thumbnail: "",
         screenshots: [],
