@@ -180,7 +180,7 @@ export const works: Work[]=[
         title: "メカドッジリミットブレイク",
         genre: "3Dアクション",
         category: "game",
-        thumbnail: "",
+        thumbnail: "/Images/Game/スクリーンショット 2026-10-05 173136.png",
         screenshots: [],
         description: "",
         tags: ["Unity6000.3.8f1","C#"],
